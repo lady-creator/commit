@@ -1,0 +1,49 @@
+.container{
+width: 50%;
+margin-top: 10%;
+margin-left: 25%;
+color:black;
+border: none ;
+background-color:   #ecf0f1   ;
+background-image:url(images.jpg);
+background-repeat:no-repeat;
+background-position:center center;
+box-shadow:2px 2px 10px gray; 
+-moz-box-shadow:2px 2px 10px gray;
+-webkit-box-shadow:2px 2px 10px gray;
+border-radius: 5px;
+
+}
+form{
+	padding:20px;
+
+
+}
+label{
+	margin: 
+}
+input[type=text],input[type=tel]{	
+	display: inline-block;
+	width: 90%;
+	height: 30px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	padding: 5px 15px;
+	margin: 5px 0px 0px;
+
+}
+input[type=submit],input[type=reset]{	
+	height: 30px;
+	width: 100px;
+	background-color:  #af7ac5 ;
+	border-radius: 250px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+	margin-top: 20px
+	
+}
+.btn:hover{
+background-color: #ccc;
+color: white;
+}
